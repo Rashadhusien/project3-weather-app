@@ -21,10 +21,6 @@ The **Weather Journal App** is a simple web application that allows users to inp
 - **Express.js**: For handling GET and POST requests.
 - **OpenWeatherMap API**: For fetching real-time weather data.
 
----
 
-## Installation and Setup
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd weather-journal-app
+
+

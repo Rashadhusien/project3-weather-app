@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather Journal App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Weather Journal</h1>
+      </header>
+      <main>
+        <section class="input">
+          <form action="" class="form">
+            <label for="zip">Enter ZIP Code:</label>
+            <input type="text" id="zip" placeholder="e.g., 10001" />
+            <label for="feelings">How are you feeling today?</label>
+            <textarea
+              id="feelings"
+              placeholder="Write here..."
+              cols="5"
+              rows="5"
+            ></textarea>
+          </form>
+          <button id="generate" type="button">Generate</button>
+        </section>
+        <section id="entryHolder">
+          <div id="date"></div>
+          <div id="temp"></div>
+          <div id="content"></div>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
